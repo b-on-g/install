@@ -1,0 +1,12 @@
+$bog_install $mol_labeler
+	title @ \Install app
+	button_title @ \Add to Home Screen
+	install_ios_instruction @ \To add this app to the Home Screen on iPhone or iPad, tap Share and choose “Add to Home Screen”.
+	install_android_instruction @ \In Chrome on Android, open the menu and choose “Install app”.
+	install_desktop_instruction @ \Use the install icon in the address bar or choose “Install app” in the browser menu.
+	install_unsupported_browser @ \Installation is not supported in this browser.
+	install_already_installed @ \The app is already installed.
+	content /
+		<= Install_button $mol_button_major
+			title <= button_title \
+			click? <=> install? null

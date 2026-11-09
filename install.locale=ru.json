@@ -1,0 +1,9 @@
+{
+	"$bog_install_title": "Установить приложение",
+	"$bog_install_button_title": "Добавить на главный экран",
+	"$bog_install_install_ios_instruction": "На iPhone или iPad нажмите «Поделиться» и выберите «На экран Домой».",
+	"$bog_install_install_android_instruction": "В Chrome на Android откройте меню ⋮ и выберите «Установить приложение».",
+	"$bog_install_install_desktop_instruction": "Нажмите значок установки в адресной строке или выберите «Установить приложение» в меню браузера.",
+	"$bog_install_install_unsupported_browser": "Установка не поддерживается в этом браузере.",
+	"$bog_install_install_already_installed": "Приложение уже установлено."
+}
