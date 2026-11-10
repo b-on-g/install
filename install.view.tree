@@ -8,5 +8,5 @@ $bog_install $mol_labeler
 	install_already_installed @ \The app is already installed.
 	content /
 		<= Install_button $mol_button_major
-			title <= button_title \
+			title <= button_title
 			click? <=> install? null
